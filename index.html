@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <script
+      src="https://kit.fontawesome.com/89dc3a6c80.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <!-- Header part -->
+
+      <div class="header">
+        <img
+          src="female-doctor-using-her-digital-tablet-free-vector.jpg"
+          alt="img"
+        />
+        <div class="text">
+          <h2>Dr. Manik Dalvi</h2>
+          <p>Obstetrics & Gynecology</p>
+          <a href="https://drmanikdalvi.getmy.clinic/">
+            <button>VIEW PROFILE</button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Book Appoinment -->
+
+      <div class="appoinment">
+        <div>
+          <h2>Book Appointment</h2>
+          <h3>Select Your Consultation Type</h3>
+          <p>Fees approx ₹ 500</p>
+          <p class="pay">(pay at clinic)</p>
+        </div>
+
+        <div class="btns">
+          <button class="appoinmentBtn appoinmentActive">
+            <i class="fa-solid fa-house-chimney-medical"></i><br />In-Clinic
+          </button>
+          <button class="appoinmentBtn"><i class="fa-solid fa-phone"></i><br />Audio</button>
+          <button class="appoinmentBtn"><i class="fa-solid fa-video"></i><br>Vedio</button>
+        </div>
+      </div>
+
+      <!-- Clinic name -->
+
+      <div class="clinic-name">
+        <h2>Clinic Name</h2>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          Manik Dalvi's Clinic, Kalyan Naka, Rk Business Centre, Opp. Bopal
+          Nagar, Maharashtra, 421302
+        </p>
+      </div>
+
+      <!-- crousal -->
+
+      <div class="crousal">
+        <span><i class="fa-solid fa-less-than"></i></span>
+        <div class="date active" id="firstDate">
+          <p>Today</p>
+          <p>8 slots available</p>
+        </div>
+        <div class="date" id="secondDate">
+          <p>Tommorow</p>
+          <p>8 slots available</p>
+        </div>
+        <div class="date" id="thirdDate">
+          <p>Today</p>
+          <p>8 slots available</p>
+        </div>
+        <span><i class="fa-solid fa-greater-than"></i></span>
+      </div>
+
+      <!-- table -->
+
+      <div class="table" id="tableData">
+        <table border="1">
+          <tr>
+            <td id="first">10:00 AM</td>
+            <td id="second">10:15 AM</td>
+            <td id="third">10:30 AM</td>
+          </tr>
+          <tr>
+            <td id="fourth">10:45 AM</td>
+            <td id="five">11:00 AM</td>
+            <td id="six">11:15 AM</td>
+          </tr>
+          <tr>
+            <td id="seven">11:30 AM</td>
+            <td id="eight">11:45 AM</td>
+          </tr>
+        </table>
+        <a href="otp.html">
+          <button class="continue" disabled id="click">CONTINUE</button>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
